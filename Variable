@@ -1,0 +1,36 @@
+package day01;
+
+public class Variable {
+	public static void main (String[]args) {
+//      변수 (variable): memory, 값Value 을 저장하는 공간 
+//		상수(constant): 항상 같은 수, 값, value
+		System.out.println(123);   // 일백이십삼 (정수 상수)
+		System.out.println("123");//일이삼(문자열 상수)
+		System.out.println(123+1);
+		System.out.println("123+1");
+		System.out.println("123"+1);//문자열 연결 연산자	
+}
+}
+/*====상수====
+*정수형 상수: +1,3,5,-3, --------
+*실수형 상수: +3.14, -3.14,----
+*단정도형 실수: 3.14f = 메모리 4byte
+*배정도형 실수: 3.14 메모리 8byte
+*문자형 상수:'a', 'A' 큰따옴표 means 단일문자 
+*문자열형 상수 : "Hello", "Hi", "화이팅", "A" -----
+*논리형 상수: true참 / false 거짓 으로만 표현 
+*
+*===변수 : memory ===
+*1. 변수 선언문;(자바의 경우 최초선언시 초기값 초기화 해야 한다 
+*  자료형 변수명;
+*  ex) int age;
+*  2. 변수 대입 (배정, 할당)문;
+*  변수명=값;
+*  ex) age =20;
+*      50  =12; <-에러 
+*     #변수명 규칙: 영문대문자 또는 소문자 또는 숫자 또는 _ , $
+*     -숫자로 시작할수 없음
+*     -예약어는 변수명 사용할 수 없음
+*     -특수문자 사용할수 없음
+
+*/
